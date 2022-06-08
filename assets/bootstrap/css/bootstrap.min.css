@@ -12694,9 +12694,7 @@ body {
   padding-bottom: 0
 }
 .background{
-  background-image: url("/img/tech/kyepa-lg6dz.gif");
-  height: 100px;
-  width: 100px;
+  background-image:url('kyepa-lg6dz.gif')
 }
 .clean-block.clean-hero:before {
   content: "";
@@ -13628,7 +13626,7 @@ body {
   }
 }
 
-@media(min-width: 576px) {
+@media(min-width: 268px) {
   .clean-block {
     padding-bottom: 100px
   }
@@ -13638,7 +13636,7 @@ body {
   }
 
   .clean-block.clean-hero {
-    min-height: 680px
+    min-height: 680px;
   }
 
   .clean-block.clean-hero .text {
