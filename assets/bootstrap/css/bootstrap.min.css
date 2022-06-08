@@ -12693,7 +12693,11 @@ body {
   justify-content: center;
   padding-bottom: 0
 }
-
+.background{
+  background-image: url("/img/tech/kyepa-lg6dz.gif");
+  height: 100px;
+  width: 100px;
+}
 .clean-block.clean-hero:before {
   content: "";
   position: absolute;
@@ -12706,7 +12710,7 @@ body {
 }
 
 .clean-block.clean-hero .text {
-  max-width: 640px;
+  max-width: 600px;
   color: #fff;
   z-index: 2;
   padding: 40px 15px;
