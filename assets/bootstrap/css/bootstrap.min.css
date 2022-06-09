@@ -12693,8 +12693,17 @@ body {
   justify-content: center;
   padding-bottom: 0
 }
-.background{
-  background-image:url('kyepa-lg6dz.gif')
+
+.masthead {
+  background-image: url('kyepa-lg6dz.gif');
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
 }
 .clean-block.clean-hero:before {
   content: "";
