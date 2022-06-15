@@ -9,3 +9,4 @@ if (document.getElementsByClassName('clean-product').length > 0) {
         vanillaZoom.init('#product-preview');
     };
 }
+
